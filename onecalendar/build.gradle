@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.github.dcendents.android-maven' // ADD THIS
+group='com.github.MorochoRochaDarwin'
 
 android {
     compileSdkVersion 25
@@ -33,29 +34,4 @@ dependencies {
     compile 'com.android.support:design:25.1.1'
     compile 'com.android.support:recyclerview-v7:25.1.1'
     compile 'com.android.support:cardview-v7:25.1.1'
-}
-
-
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'one-calendar'
-
-    publishedGroupId = 'com.codictados.utils'
-    libraryName = 'OneCalendarView'
-    artifact = 'one-calendar'
-
-    libraryDescription = 'Librería para facilitar las operaciones con archivos en un dispositivo Android.'
-
-    siteUrl = 'https://github.com/MorochoRochaDarwin/OneCalendarView'
-    gitUrl = 'https://github.com/MorochoRochaDarwin/OneCalendarView.git'
-
-    libraryVersion = '2.1'
-
-    developerId = 'MorochoRochaDarwin'
-    developerName = 'Darwin DEveloper'
-    developerEmail = 'dsmr.apps@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
 }
