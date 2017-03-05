@@ -4,8 +4,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
@@ -20,7 +18,6 @@ import android.widget.TextView;
 
 import com.darwindeveloper.onecalendar.R;
 import com.darwindeveloper.onecalendar.clases.Day;
-import com.darwindeveloper.onecalendar.clases.OnSwipeTouchListener;
 import com.darwindeveloper.onecalendar.fragments.MonthFragment;
 
 import java.text.SimpleDateFormat;
