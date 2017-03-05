@@ -11,17 +11,52 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
+    private OneCalendarView calendarView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final OneCalendarView calendarView = (OneCalendarView) findViewById(R.id.oneCalendar);
+        calendarView = (OneCalendarView) findViewById(R.id.oneCalendar);
+
+        //los metodos son obigatorios
+        //calendarView.setOnCalendarChangeListener(params)
+        //setOneCalendarClickListener(params)
+
+        calendarView.setOneCalendarClickListener(new OneCalendarView.OneCalendarClickListener() {
+            @Override
+            public void dateOnClick(Day day, int position) {
+
+            }
+
+            @Override
+            public void dateOnLongClick(Day day, int position) {
+
+            }
+        });
 
 
+        calendarView.setOnCalendarChangeListener(new OneCalendarView.OnCalendarChangeListener() {
+            @Override
+            public void prevMonth() {
+
+            }
+
+            @Override
+            public void nextMonth() {
+
+            }
+        });
+
+        //initCalendar();
+
+
+    }
+
+
+    private void initCalendar() {
         //el siguiente fragmento puede ser usado para capturar los swipes en el calendar
-        //sientase libre de comentar el codigo para ver los cambios
         calendarView.setOnCalendarChangeListener(new OneCalendarView.OnCalendarChangeListener() {
 
             /**
@@ -85,6 +120,5 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
     }
 }
