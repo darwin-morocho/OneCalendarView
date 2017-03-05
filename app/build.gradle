@@ -1,7 +1,5 @@
 apply plugin: 'com.android.application'
-repositories{
-    
-}
+
 
 android {
     compileSdkVersion 25
@@ -28,8 +26,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    debugCompile project(path: ':onecalendar', configuration: 'debug')
-    releaseCompile project(path: ':onecalendar', configuration: 'release')
 
     compile 'com.android.support:appcompat-v7:25.1.1'
     testCompile 'junit:junit:4.12'

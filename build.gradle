@@ -12,14 +12,7 @@ buildscript {
     }
 }
 
-plugins {
-    id "com.jfrog.bintray" version "1.7.3"
-}
 
-bintray {
-    user = 'morochorochadarwin'
-    key = '26792d368df1f926807f1e18ccd964743ad26d9a'
-}
 
 allprojects {
     repositories {
