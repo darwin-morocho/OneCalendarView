@@ -151,7 +151,8 @@ La clase OneCalendarView dispone de los siguientes metodos para facilitar y redu
 | boolean isDaySelected(int position) | comprueba si un dia en el calendario del mes visible esta seleccionado |
 
 #Interfaces
-##OneCalendarClickListener(OBLIGATORIA) implementa todos los metodos necesarios para cuando se de clic o un clic prolongado en una fecha del calendario.
+##OneCalendarClickListener(OBLIGATORIA)
+implementa todos los metodos necesarios para cuando se de clic o un clic prolongado en una fecha del calendario.
 ```java
         /**
          * cuando se da click en un dia del mes mostrado
@@ -169,7 +170,8 @@ La clase OneCalendarView dispone de los siguientes metodos para facilitar y redu
          */
         void dateOnLongClick(Day day, int position);
 ```
-##OnCalendarChangeListener(OBLIGATORIA) implementa todos los metodos necesarios para notificar que ha habido un cambio en el mes del calendario
+##OnCalendarChangeListener(OBLIGATORIA)
+implementa todos los metodos necesarios para notificar que ha habido un cambio en el mes del calendario
 ```java
          /**
          * notifica al usuario que el calendario a cambiado al mes anterior
