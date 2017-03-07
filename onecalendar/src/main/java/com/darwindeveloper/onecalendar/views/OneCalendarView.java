@@ -289,6 +289,18 @@ public class OneCalendarView extends LinearLayout {
 
     //MIS METODOS
 
+
+    /**
+     * este metodo configura el calendar a un mes y un año especifico
+     *
+     * @param month mes para el calendar
+     * @param year  año del mes
+     */
+    public void setMonthYear(int month, int year) {
+        showMonth(month, year);
+    }
+
+
     /**
      * permite cambiar el lenguaje de como se visualizan los meses y dias del calendario
      *
@@ -341,11 +353,15 @@ public class OneCalendarView extends LinearLayout {
             diciembre = "Deciembre";
         }
 
+        textViewMY.setText(getStringMonth(month) + " " + year);
+
 
     }
 
     /**
-     * @param numMonth numeo del mes iniciando desde 0,1,2...
+     * retorna un mes como un string de pendiendo del idioma establecido en el OneCalendar
+     *
+     * @param numMonth numero del mes iniciando desde 0,1,2...
      * @return mes en texto segun el idioma elegido
      */
     public String getStringMonth(int numMonth) {
@@ -511,11 +527,18 @@ public class OneCalendarView extends LinearLayout {
         this.oneCalendarClickListener = oneCalendarClickListener;
     }
 
+    /**
+     * retorna el mes visible en el calendario
+     * @return
+     */
     public int getMonth() {
         return month;
     }
 
-
+    /**
+     * retorna el año del mes visible en el calendario
+     * @return
+     */
     public int getYear() {
         return year;
     }
