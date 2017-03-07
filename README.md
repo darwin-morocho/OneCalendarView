@@ -30,7 +30,7 @@ repositories {
 }
 
 dependencies {
-       compile 'com.github.MorochoRochaDarwin:OneCalendarView:3.0.0'
+       compile 'com.github.MorochoRochaDarwin:OneCalendarView:3.0.1'
 }
 ```
 
@@ -132,7 +132,7 @@ Usted puede agregar varios atributos a la vista en sus layouts y crear diseños 
 ```
 
 #Metodos
-La clase OneCalendarView dispone de los siguientes metodos para facilitar y reducir la codificacion al suaurio
+La clase OneCalendarView dispone de los siguientes metodos para facilitar y reducir la codificacion al usuario
 
 | Metodo | Descripción |
 | --- | --- |
