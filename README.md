@@ -30,7 +30,7 @@ repositories {
 }
 
 dependencies {
-       compile 'com.github.MorochoRochaDarwin:OneCalendarView:3.0.1'
+       compile 'com.github.MorochoRochaDarwin:OneCalendarView:3.1.1'
 }
 ```
 
