@@ -3,21 +3,8 @@ CalendarView Personalizado para desarrolladores android
 OneCalendarView es un CalendarView Personalizado que perimite a los desarrolladores android tener el mismo CalendarView en cualquier aplicacion android (API 16 o superior).
 
 #Capturas de pantalla
-| demo 1 | demo 2 | demo 3 | demo 4 | 
-| --- | --- | --- | --- |
-| ![](https://cloud.githubusercontent.com/assets/15864336/23593785/7f9fc8f6-01e1-11e7-909f-c19f0829dded.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593786/7fa0c33c-01e1-11e7-974a-2122ca46d21b.png)  |![](https://cloud.githubusercontent.com/assets/15864336/23593788/7fa2180e-01e1-11e7-8121-f0424c386bd6.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593788/7fa2180e-01e1-11e7-8121-f0424c386bd6.png)  |
 
-| demo 5 | demo 6 | demo 7 | demo 8 | 
-| --- | --- | --- | --- |
-| ![](https://cloud.githubusercontent.com/assets/15864336/23593789/7fa2303c-01e1-11e7-982d-af65d724dc41.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593790/7fb428c8-01e1-11e7-9201-bf9e5a7ba9e6.png)  |![](https://cloud.githubusercontent.com/assets/15864336/23593791/7fb5b90e-01e1-11e7-9d8f-ea5e0a614f64.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593792/7fb6f5bc-01e1-11e7-95af-1191d1ccbc68.png)  |
 
-| demo 9 | demo 10 | demo 11 | demo 12 | 
-| --- | --- | --- | --- |
-| ![](https://cloud.githubusercontent.com/assets/15864336/23593793/7fb78d10-01e1-11e7-8bf1-36c57f2f515d.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593795/7fb8c31a-01e1-11e7-837d-fa828ce0c9d4.png)  |![](https://cloud.githubusercontent.com/assets/15864336/23593794/7fb88dc8-01e1-11e7-8b23-76b4da4cb523.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593796/7fc8f348-01e1-11e7-90e0-27a9eeaf3f5d.png)  |
-
-| demo 13 | demo 14 | demo 15 | demo 16 | 
-| --- | --- | --- | --- |
-| ![](https://cloud.githubusercontent.com/assets/15864336/23593799/7fcdcab2-01e1-11e7-80c8-e5da3aa210a1.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593797/7fcc27b6-01e1-11e7-82b4-53f0a7d63671.png)  |![](https://cloud.githubusercontent.com/assets/15864336/23593798/7fcdbffe-01e1-11e7-980e-443a4673d949.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593796/7fc8f348-01e1-11e7-90e0-27a9eeaf3f5d.png)  |
 
 #Live Demo app
 usted puede ver una aplicacion demo en el siguiente enlace https://appetize.io/app/cymqjzvzaybypepxhnmn4hewx0
