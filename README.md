@@ -2,7 +2,7 @@
 CalendarView Personalizado para desarrolladores android
 OneCalendarView es un CalendarView Personalizado que perimite a los desarrolladores android tener el mismo CalendarView en cualquier aplicacion android (API 16 o superior).
 
-#Capturas de pantalla
+# Capturas de pantalla
 
 
 | demo 9 | demo 10 | demo 11 | demo 12 | 
@@ -14,10 +14,10 @@ OneCalendarView es un CalendarView Personalizado que perimite a los desarrollado
 | ![](https://cloud.githubusercontent.com/assets/15864336/23593799/7fcdcab2-01e1-11e7-80c8-e5da3aa210a1.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593797/7fcc27b6-01e1-11e7-82b4-53f0a7d63671.png)  | ![](https://cloud.githubusercontent.com/assets/15864336/23593798/7fcdbffe-01e1-11e7-980e-443a4673d949.png) | ![](https://cloud.githubusercontent.com/assets/15864336/23593796/7fc8f348-01e1-11e7-90e0-27a9eeaf3f5d.png)  |
 
 
-#Live Demo app
+# Live Demo app
 usted puede ver una aplicacion demo en el siguiente enlace https://appetize.io/app/cymqjzvzaybypepxhnmn4hewx0
 
-#Instalación
+# Instalación
 en su archivo /app/build.gradle
 ```
 repositories {
@@ -29,7 +29,7 @@ dependencies {
 }
 ```
 
-#Agregar la vista OneCalendarView a su Layout
+# Agregar la vista OneCalendarView a su Layout
 ```xml
   <com.darwindeveloper.onecalendar.views.OneCalendarView
         android:id="@+id/oneCalendar"
@@ -37,7 +37,7 @@ dependencies {
         android:layout_height="wrap_content"
         />
 ```
-#En sus Actividades o Fragments
+# En sus Actividades o Fragments
 Inicialice la vista y llame a sus 2 metodos obligatorios para capturar los eventos en el calendario (NOTA: de no llamar a estos metodos se producira un error en tiempo de ejecución).
 
 ```java
@@ -106,7 +106,7 @@ calendarView.setOnCalendarChangeListener(this);
 calendarView.setOneCalendarClickListener(this); 
 ```
 
-#Diseño completo
+# Diseño completo
 Usted puede agregar varios atributos a la vista en sus layouts y crear diseños unicos. A continuación un ejemplo completo
 ```xml
  <com.darwindeveloper.onecalendar.views.OneCalendarView
@@ -126,7 +126,7 @@ Usted puede agregar varios atributos a la vista en sus layouts y crear diseños 
         app:textColorSelectedDay="#000000" />
 ```
 
-#Metodos
+# Metodos
 La clase OneCalendarView dispone de los siguientes metodos para facilitar y reducir la codificacion al usuario
 
 | Metodo | Descripción |
@@ -145,8 +145,8 @@ La clase OneCalendarView dispone de los siguientes metodos para facilitar y redu
 | void removeDaySeleted(int position) | este metodo remueve o despinta un dia en el mes visible del calendario (posicion es un valor entre 0-41) |
 | boolean isDaySelected(int position) | comprueba si un dia en el calendario del mes visible esta seleccionado |
 
-#Interfaces
-##OneCalendarClickListener(OBLIGATORIA)
+# Interfaces
+## OneCalendarClickListener(OBLIGATORIA)
 implementa todos los metodos necesarios para cuando se de clic o un clic prolongado en una fecha del calendario.
 ```java
         /**
@@ -165,7 +165,7 @@ implementa todos los metodos necesarios para cuando se de clic o un clic prolong
          */
         void dateOnLongClick(Day day, int position);
 ```
-##OnCalendarChangeListener(OBLIGATORIA)
+## OnCalendarChangeListener(OBLIGATORIA)
 implementa todos los metodos necesarios para notificar que ha habido un cambio en el mes del calendario
 ```java
          /**
